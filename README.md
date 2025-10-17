@@ -1,3 +1,4 @@
+#Task_1
 # 1.1
 ```
 a = int(input())
@@ -48,6 +49,8 @@ else:
                 f += s[(j + y - 2) * i]
     print(f)
 ```
+
+#Task_2
 # 2.1
 ```
 s = input()
@@ -76,6 +79,8 @@ b.reverse()  #меняем местами слова
 r = ' '.join(b)  #соединяем их в строку 
 print(r.capitalize()) #выводим с правильным регистром
 ```
+
+#Task_3
 #3.1
 ```
 from itertools import combinations
@@ -136,6 +141,7 @@ for i in range(len(a)):
 print(m)
 ```
 
+#Task_4
 #4.1
 ```
 a, b = set(input().split()), set(input().split())
@@ -161,6 +167,8 @@ for i in range(1, len(a) + 1):
 print(s)     
 print(len(s))
 ```
+
+#Task_5
 #5.1
 ```
 matrix = [
@@ -179,3 +187,4 @@ def spiral_order(m):
 result = spiral_order([row[:] for row in matrix])
 print(result)  # [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
+
